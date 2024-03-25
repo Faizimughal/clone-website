@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+body ::-moz-selection {
+  background-color: green;
+  color: white;
+}
+body ::selection {
+  background-color: green;
+  color: white;
+}
+
+.top-nav {
+  background: linear-gradient(to right, #2eb42e, rgb(26, 102, 16));
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.top-nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 140px;
+}
+
+.top-nav ul #twitter {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  margin: 15px;
+}
+
+.top-nav ul #youtube {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  margin: 15px;
+}
+
+.top-nav ul #insta {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  margin: 15px;
+}
+
+.top-nav ul #facebook {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  margin: 15px;
+}
+
+.vl {
+  border: 0.2px solid white;
+  height: 25px;
+}
+
+.middle-nav {
+  display: flex;
+  background-color: rgb(14, 43, 14);
+  height: 110px;
+}
+.middle-nav ul {
+  list-style: none;
+  display: flex;
+  font-weight: 900;
+}
+
+.middle-nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 14px 15px;
+  margin: 10px;
+}
+.middle-nav ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.bottom-nav {
+  display: flex;
+  background: linear-gradient(to right, #2eb42e, rgb(26, 102, 16));
+  height: 120px;
+}
+
+.section {
+  height: 700px;
+  width: 100%;
+  margin-top: 40px;
+  background-image: url(psl\ image\ \(2\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 800px) {
+  .section {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+#h2 {
+  text-align: center;
+  color: green;
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+  height: 200px;
+}
+
+.teams-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.teams-images #img3 {
+  background: transparent;
+}
+
+.score-board {
+  background: linear-gradient(#2a922a, rgb(26, 102, 16));
+  color: white;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -moz-column-gap: 0px;
+       column-gap: 0px;
+  row-gap: 0px;
+}
+
+.video {
+  background-image: url(video\ poster.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin-top: 20px;
+  width: 70%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.video a {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+.video a button {
+  background: transparent;
+  border: none;
+}
+.video a button img {
+  background: transparent;
+  height: 80px;
+  width: 80px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.image-gallery .images {
+  height: 300px;
+  width: 400px;
+}
+
+.brands-img {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 80%;
+}
+.quick-links h3 {
+  margin-left: 35px;
+}
+.quick-links ul li p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.quick-links li {
+  list-style-type: none;
+}
+.quick-links li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.quick-links li a img {
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: 1px solid black;
+  padding: 10px;
+  size: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.quick-links img {
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: 1px solid black;
+  padding: 10px;
+  size: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  display: inline;
+}
+
+.footer {
+  display: flex;
+  background-color: #1d751d;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 2px;
+}
+.footer p {
+  color: white;
+  margin-left: 60px;
+}/*# sourceMappingURL=style.css.map */
