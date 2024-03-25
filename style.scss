@@ -370,6 +370,17 @@ table {
     }
 
 }
+.socialmedialink{
+    display: flex;
+    margin-bottom: 6px;
+    margin-left: 20px;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+        }
+    }
+}
 
 .footer {
     display: flex;
