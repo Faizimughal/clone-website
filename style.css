@@ -288,6 +288,9 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .home img {
   width: 40px;
@@ -297,11 +300,20 @@ table {
   padding: 10px;
   size: 10px;
   margin-right: 10px;
-  margin-top: 15px;
+  margin-top: -12px;
   display: inline;
 }
 .home img p {
-  display: inline;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4px;
 }
 
 .footer {
@@ -312,6 +324,7 @@ table {
   width: 100%;
   height: 70px;
   margin-bottom: 2px;
+  position: relative;
 }
 .footer p {
   color: white;
