@@ -15,7 +15,7 @@ body ::selection {
 }
 
 .top-nav {
-  background: linear-gradient(to right, #2eb42e, rgb(26, 102, 16));
+  background: linear-gradient(129deg, rgb(57, 145, 26) 50%, rgb(38, 100, 38) 50%);
   height: 40px;
   width: 100%;
   display: flex;
@@ -63,7 +63,7 @@ body ::selection {
 
 .middle-nav {
   display: flex;
-  background-color: rgb(14, 43, 14);
+  background: linear-gradient(129deg, rgb(12, 32, 5) 46%, rgb(23, 73, 23) 46%);
   height: 110px;
 }
 .middle-nav ul {
@@ -86,8 +86,8 @@ body ::selection {
 
 .bottom-nav {
   display: flex;
-  background: linear-gradient(to right, #2eb42e, rgb(26, 102, 16));
-  height: 120px;
+  background: linear-gradient(129deg, rgb(53, 100, 35) 40%, rgb(39, 207, 39) 40%);
+  height: 90px;
 }
 
 .section {
