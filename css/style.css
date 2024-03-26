@@ -332,6 +332,15 @@ table {
   list-style: none;
 }
 
+.iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
